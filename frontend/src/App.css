@@ -1,0 +1,135 @@
+.app {
+  padding: 20px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: flex-end;  
+  align-items: center;  
+  color: black;
+  height: 10vh;
+  background-color: #f4f4f4;  
+  padding: 0 20px;  
+}
+
+.dropdown h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.dropdown select {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.dropdown select:focus {
+  outline: none;
+  border-color: #007bff;  
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  width: 230px;
+  color: black;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ 
+
+.card h3, p{
+margin: 0;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+  color: black;
+}
+
+ 
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.checkbox {
+  margin: 10px 0;
+}
+
+.saveButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.saveButton:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+
+.closeButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+ .saveButton:hover, .closeButton:hover{
+  scale: 1.02;
+ }
